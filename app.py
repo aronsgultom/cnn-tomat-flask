@@ -11,7 +11,7 @@ import gdown
 # Unduh model dari Google Drive jika belum ada
 # =========================================
 MODEL_PATH = "model_tomat.keras"
-DRIVE_ID = "1ABCDefGhIJklMnOPQ123"  # 🔁 ganti dengan ID model kamu di Google Drive
+DRIVE_ID = "1ZhMlGHwufTj3TKwhrXaoEA89N0HEYrHj"  # 🔁 ganti dengan ID model kamu di Google Drive
 
 if not os.path.exists(MODEL_PATH):
     print("📥 Mengunduh model dari Google Drive...")
@@ -111,3 +111,4 @@ def index():
 if __name__ == '__main__':
     # Jangan gunakan debug=True di Render
     app.run(host='0.0.0.0', port=10000)
+
